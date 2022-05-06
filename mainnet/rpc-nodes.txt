@@ -1,0 +1,2 @@
+https://main-rpc.joinloyal.com/
+https://val-rpc.joinloyal.com/
