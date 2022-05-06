@@ -6,7 +6,7 @@
   "chain_id": "loyal-1",
   "bech32_prefix": "loyal",
   "daemon_name": "loyald",
-  "node_home": "$HOME/.loyal-chain",
+  "node_home": "$HOME/.loyal",
   "genesis": {
     "genesis_url": "https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json"
   },
