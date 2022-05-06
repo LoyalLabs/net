@@ -49,8 +49,6 @@ LOYAL_NET="$LOYAL_NET_BASE/mainnet"
 # testnet
 LOYAL_NET="$LOYAL_NET_BASE/testnet"
 
-# edgenet
-LOYAL_NET="$LOYAL_NET_BASE/edgenet"
 ```
 
 ## Fetching Information
