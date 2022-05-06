@@ -6,8 +6,8 @@ In general, there will be three networks available at any given time:
 
 | Network            | Status             | Version     | Description                             |
 | ------------------ | ------------------ | ----------- | --------------------------------------- |
-| [mainnet](mainnet) | :heavy_check_mark: | v0.16.3     | Loyal Network mainnet network.          |
-| [testnet](testnet) | :construction:     | v0.14.1     | Testnet of the current mainnet version. |
+| [mainnet](mainnet) | :heavy_check_mark: | v1.0.0     | Loyal Network mainnet network.          |
+| [testnet](testnet) | :construction:     | v1.0.0     | Testnet of the current mainnet version. |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
