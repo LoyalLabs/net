@@ -8,7 +8,7 @@
   "daemon_name": "loyald",
   "node_home": "$HOME/.loyal-chain",
   "genesis": {
-    "genesis_url": "https://github.com/LoyalLabs/net/raw/master/mainnet/genesis.json"
+    "genesis_url": "https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json"
   },
   "codebase": {
     "git_repo": "github.com/LoyalLabs/loyal",
