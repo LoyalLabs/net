@@ -228,7 +228,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "1000000000000"
+                  "amount": "10000000000000"
                 }
               }
             ],
@@ -255,7 +255,7 @@
               "granter": ""
             }
           },
-          "signatures": [ "mra3fCRVJCCkHv7UUevT1QpfatoBO6x43CUF7+7CHskApEfMvOIDEsfDRfd/kMYinuahWZXJrUHyHi6bjbvB8g==" ]
+          "signatures": [ "3i9ChI/xUixm3XCgsnMmVBupisuvCTsFRFBvx563kY8aAK4Ff/FSWosT5YnoUw0aJgzrE6QYniD9zQyLTzmuuA==" ]
         },
         {
           "body": {
