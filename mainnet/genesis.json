@@ -47,6 +47,9 @@
         }
       ]
     },
+    "authz": {
+      "authorization": []
+    },
     "bank": {
       "params": {
         "send_enabled": [],
@@ -231,7 +234,7 @@
         "next_channel_sequence": "0"
       }
     },
-    "loyalchain": {
+    "loyal": {
       "params": {}
     },
     "mint": {

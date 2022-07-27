@@ -21,7 +21,7 @@
     }
   },
   "faucet": {
-    "url": "https://main-rpc.joinloyal.com/faucet"
+    "url": "https://main-rpc.joinloyal.io/faucet"
   },
   "peers": {
     "seeds": [
@@ -48,15 +48,15 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://main-rpc.joinloyal.com/"
+        "address": "https://main-rpc.joinloyal.io/"
       },
       {
-        "address": "https://val-rpc.joinloyal.com/"
+        "address": "https://val-rpc.joinloyal.io/"
       }
     ],
     "rest": [
       {
-        "address": "https://main-lcd.joinloyal.com/"
+        "address": "https://main-lcd.joinloyal.io/"
       }
     ]
   }
