@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-04-22T04:11:19.476313973Z",
+  "genesis_time": "2022-09-06T00:00:00.476313973Z",
   "chain_id": "loyal-1",
   "initial_height": "1",
   "consensus_params": {
@@ -323,7 +323,7 @@
         "min_deposit": [
           {
             "denom": "ulyl",
-            "amount": "10000000"
+            "amount": "1000000000"
           }
         ],
         "max_deposit_period": "172800s"
@@ -424,6 +424,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
+        "min_commission_rate": "0.050000000000000000",
         "bond_denom": "ulyl"
       },
       "last_total_power": "0",
