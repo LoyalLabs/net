@@ -424,7 +424,6 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "min_commission_rate": "0.050000000000000000",
         "bond_denom": "ulyl"
       },
       "last_total_power": "0",
