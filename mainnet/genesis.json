@@ -76,6 +76,10 @@
             {
               "denom": "ulyl",
               "amount": "2000000000000000"
+            },
+            {
+              "denom": "uusl",
+              "amount": "10000000000000000"
             }
           ]
         },
@@ -107,8 +111,60 @@
           ]
         }
       ],
-      "supply": [],
-      "denom_metadata": []
+      "supply": [
+        {
+          "denom": "ulyl",
+          "amount": "10000000000000000"
+        },
+        {
+          "denom": "uusl",
+          "amount": "10000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Loyal network.",
+          "denom_units": [
+            {
+              "denom": "ulyl",
+              "exponent": 0,
+              "aliases": [
+                "microlyl"
+              ]
+            },
+            {
+              "denom": "LYL",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ulyl",
+          "display": "LYL",
+          "name": "LYL",
+          "symbol": "LYL"
+        },
+        {
+          "description": "The USD token of the Loyal network.",
+          "denom_units": [
+            {
+              "denom": "uusl",
+              "exponent": 0,
+              "aliases": [
+                "microusl"
+              ]
+            },
+            {
+              "denom": "USL",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uusl",
+          "display": "USL",
+          "name": "USL",
+          "symbol": "USL"
+        }
+      ]
     },
     "capability": {
       "index": "1",
@@ -323,13 +379,13 @@
         "min_deposit": [
           {
             "denom": "ulyl",
-            "amount": "1000000000"
+            "amount": "500000000"
           }
         ],
-        "max_deposit_period": "172800s"
+        "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "1209600s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -409,7 +465,7 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "30000",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
@@ -421,7 +477,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "max_validators": 150,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "ulyl"
