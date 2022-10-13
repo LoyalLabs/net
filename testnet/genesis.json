@@ -142,27 +142,6 @@
           "display": "LYL",
           "name": "LYL",
           "symbol": "LYL"
-        },
-        {
-          "description": "The USD token of the Loyal network.",
-          "denom_units": [
-            {
-              "denom": "uusl",
-              "exponent": 0,
-              "aliases": [
-                "microusl"
-              ]
-            },
-            {
-              "denom": "USL",
-              "exponent": 6,
-              "aliases": []
-            }
-          ],
-          "base": "uusl",
-          "display": "USL",
-          "name": "USL",
-          "symbol": "USL"
         }
       ]
     },
