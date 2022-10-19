@@ -24,18 +24,18 @@
     "seeds": [
       {
         "id": "7490c272d1c9db40b7b9b61b0df3bb4365cb63a6",
-        "address": "loyal-seed.netdots.net:26656"
+        "address": "loyal-seed.netdots.net:27656"
       },
       {
         "id": "b66ecdf36bb19a9af0460b3ae0901aece93ae006",
-        "address": "pubnode1.joinloyal.io:26656"
+        "address": "pubnode1.joinloyal.io:27656"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://main-rpc.joinloyal.io/"
+        "address": "https://test-rpc.joinloyal.io/"
       },
       {
         "address": "https://val-rpc.joinloyal.io/"
@@ -43,7 +43,7 @@
     ],
     "rest": [
       {
-        "address": "https://main-lcd.joinloyal.io/"
+        "address": "https://test-lcd.joinloyal.io/"
       }
     ]
   }
