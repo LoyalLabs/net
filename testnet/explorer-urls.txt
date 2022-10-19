@@ -1,1 +1,1 @@
-https://ping-pub.joinloyal.io/loyal-test
+https://ping-pub.joinloyal.io/testloyal
