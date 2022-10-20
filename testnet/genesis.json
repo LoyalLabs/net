@@ -209,15 +209,15 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "test-loyal-1",
-                  "identity": "",
-                  "website": "",
+                  "moniker": "LoyalTest",
+                  "identity": "55142b0dbd243d39",
+                  "website": "https://www.joinloyal.com",
                   "security_contact": "",
                   "details": ""
                 },
                 "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
@@ -257,7 +257,7 @@
             },
             "tip": null
           },
-          "signatures": [ "PcR35CEfTZdHxF1sxG1CPci5JIncuIFdJSvoBEnJrkkHvs9TgX5ZTUCS27rl8kkM3hoLUMyPOVbsJ8v9S4VILg==" ]
+          "signatures": [ "YsIy++7DlUV5fOq31lPGIBWWNVIVK7D61hBFn5bx6plFbFDjM/yjfjwr5pJgopydWG+/DLf3Edn36jwZfohxoQ==" ]
         },
         {
           "body": {
@@ -265,9 +265,9 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "test-loyal-2",
-                  "identity": "",
-                  "website": "",
+                  "moniker": "AvecomTest",
+                  "identity": "97270e70d46eeab8",
+                  "website": "https://www.avecom.com",
                   "security_contact": "",
                   "details": ""
                 },
@@ -285,7 +285,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "10000000000000"
+                  "amount": "1000000000000"
                 }
               }
             ],
@@ -313,7 +313,7 @@
             },
             "tip": null
           },
-          "signatures": [ "QjmsGaMe3/pGb/B957YfWCyGKERL9QJWITvOAfoB4oxNeTDqn4UpsL5/vOm4ee5Y+22no+2sH3RGa4naoUO9KQ==" ]
+          "signatures": [ "tpPmLFjozmSsTUagujI06T8Ck4IWXFxTSCl9dGgBX7s8KMGtTVSjR6+co4T47O2GvIYqCfQnUCxJ5G1wE9o7mQ==" ]
         },
         {
           "body": {
@@ -321,15 +321,15 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "test-loyal-3",
+                  "moniker": "LoyalTest Launch 1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
                   "details": ""
                 },
                 "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
+                  "rate": "1.000000000000000000",
+                  "max_rate": "1.000000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
@@ -341,7 +341,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "10000000000000"
+                  "amount": "10000000000"
                 }
               }
             ],
@@ -369,7 +369,7 @@
             },
             "tip": null
           },
-          "signatures": [ "EBZ50JFKKe7YSX02fPuNTtvyrF6djqpBk5B2crbZpfxl/AZVCVk3b/5cq0nxslnfOI5C+v7yu/1Tl9FpkAId9A==" ]
+          "signatures": [ "GPRiEUoMbS8BgumGrMugIyuLRWRALPimWXDSR3Yz4RlKO+NeToxjZolEEzekfVUxdtdk5n/j4y0AS1bIFLnozA==" ]
         }
       ]
     },
@@ -382,7 +382,7 @@
         "min_deposit": [
           {
             "denom": "ulyl",
-            "amount": "500000000"
+            "amount": "100000000"
           }
         ],
         "max_deposit_period": "604800s"

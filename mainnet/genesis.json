@@ -379,7 +379,7 @@
         "min_deposit": [
           {
             "denom": "ulyl",
-            "amount": "500000000"
+            "amount": "100000000"
           }
         ],
         "max_deposit_period": "604800s"
