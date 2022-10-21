@@ -58,6 +58,116 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        //Loyal MS1 (Default)
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "loyal14hvap9ed60q4vp3dvs03gu2xu5fn4t6pcgw8xk",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulyl",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1757008452"
+          },
+          "start_time": "1693800452"
+        },
+        //Loyal MS2 (Default (1 year = 1 day))
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "loyal1w8yp5clhmgqh72g59flhhsv3sjg248ux8am0k0",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulyl",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "4813722"
+          },
+          "start_time": "4640549"
+        },
+        //Loyal MS3 (Start Now, (3 year vesting cycle = 3 days))
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "loyal1lu3lwtcl9lm26dmx5puq589fy28msavyxc2396",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulyl",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "259260"
+          },
+          "start_time": "60"
+        },
+        // Loyal MS4 (wait 1 year, then (vest 3 years = 3 days))
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "loyal12fwjl5l2l3ff84ytlsn8ggw2qq3tvdsup3weyf",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulyl",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "338400"
+          },
+          "start_time": "84600"
+        },
+        // Loyal MS5 (start in 2 years (2 days) and immediate vest)
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "loyal1vrw7asw7zjq2xueu5qx0sf66q6kturanumrx89",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulyl",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "172800"
+          },
+          "start_time": "172800"
         }
       ]
     },
@@ -75,7 +185,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "199700000000000"
+              "amount": "190700000000000"
             },
             {
               "denom": "uusl",
@@ -107,6 +217,96 @@
             {
               "denom": "ulyl",
               "amount": "100000000000"
+            }
+          ]
+        },
+        // Loyal Multisig Address
+        {
+          "address": "loyal1mtzxkyze2c9fu8rh3pex6u8t6tyksy79vq39p7",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS1 (Default)
+        {
+          "address": "loyal14hvap9ed60q4vp3dvs03gu2xu5fn4t6pcgw8xk",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS2 (Default (1 year = 1 day))
+        {
+          "address": "loyal1w8yp5clhmgqh72g59flhhsv3sjg248ux8am0k0",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS3 (Start Now, (3 year vesting cycle = 3 days))
+        {
+          "address": "loyal1lu3lwtcl9lm26dmx5puq589fy28msavyxc2396",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        // Loyal MS4 (wait 1 year, then (vest 3 years = 3 days))
+        {
+          "address": "loyal12fwjl5l2l3ff84ytlsn8ggw2qq3tvdsup3weyf",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        // Loyal MS5 (start in 2 years (2 days) and immediate vest)
+        {
+          "address": "loyal1vrw7asw7zjq2xueu5qx0sf66q6kturanumrx89",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS1a
+        {
+          "address": "loyal1eux2s92l4tpn7hpm00lq78raqfwsuswjymc24e",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS2a
+        {
+          "address": "loyal1yjsrjsr9960sffmg8wg68qa4na7p204nxgztu3",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        //Loyal MS3a
+        {
+          "address": "loyal1640wzx27mrqzyewlala33me26sqjzm5zgenlea",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000000"
             }
           ]
         }
