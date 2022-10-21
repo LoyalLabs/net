@@ -415,7 +415,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "10000000000000"
+                  "amount": "100000000000"
                 }
               }
             ],
@@ -443,7 +443,7 @@
             },
             "tip": null
           },
-          "signatures": [ "zbdi8DayQnOz0RnU6823VIcnNgX7l2o2rcuZNpYaOVNnLGQ/ROnt8yTHMsecgxtCksGXrCXP8eLhXnVfvgKCqg==" ]
+          "signatures": [ "aUynM1kr5C0q1xNhRCB5fvlUFQbWtgPcI6gjvKj+E+UaI/ul7KFyQWBPzbWkXmZopAJefxdwnr53KjDfmJvyig==" ]
         },
         {
           "body": {
@@ -471,7 +471,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "1000000000000"
+                  "amount": "100000000000"
                 }
               }
             ],
@@ -499,7 +499,7 @@
             },
             "tip": null
           },
-          "signatures": [ "DDdbSidrGTXU/66bNT0EBWQWH71uRAlEdENlQTnmxOxvB13xzCT/sF8fdewRcK6Kf3f7LIxuNHIWumOFFVTCJQ==" ]
+          "signatures": [ "iUolMUf0HS2oz+RuDuzLDBbh9QbVIDQuAnfQ4QXe3DlPnbfOGVyMnwtGJ1zGj+oJUSp05JDD9hJaXZOfq8nb2w==" ]
         },
         {
           "body": {
@@ -527,7 +527,7 @@
                 },
                 "value": {
                   "denom": "ulyl",
-                  "amount": "10000000000"
+                  "amount": "100000000000"
                 }
               }
             ],
@@ -555,7 +555,7 @@
             },
             "tip": null
           },
-          "signatures": [ "uVsc3Ar0k0IjXE+9ylEsYCZlJj3fKjewIBQNIMRvnzxn1dG3AboQ8J0KYXo+Ln5EAQ6S69ue14XMNPOK/R79Iw==" ]
+          "signatures": [ "sNWybalv7bda5lM2F5AiMZrKJs+uTBwlJBwR7TGSA443GMxl9zvB6qT7qABa4LIvzQOaJ+lWMxCRsiPR2/OTiQ==" ]
         }
       ]
     },
