@@ -75,7 +75,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "178990000000000"
+              "amount": "199700000000000"
             },
             {
               "denom": "uusl",
@@ -88,7 +88,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "20000000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -97,7 +97,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "1000000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -106,7 +106,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "10000000000"
+              "amount": "100000000000"
             }
           ]
         }
@@ -396,6 +396,16 @@
         "veto_threshold": "0.334000000000000000"
       }
     },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
     "ibc": {
       "client_genesis": {
         "clients": [],
@@ -429,6 +439,25 @@
         "next_channel_sequence": "0"
       }
     },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": []
+        }
+      }
+    },
     "loyal": {
       "params": {}
     },
@@ -444,25 +473,6 @@
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
-      }
-    },
-    "monitoringp": {
-      "port_id": "monitoring",
-      "consumerClientID": null,
-      "connectionChannelID": null,
-      "monitoringInfo": null,
-      "params": {
-        "lastBlockHeight": "1",
-        "consumerChainID": "spn-1",
-        "consumerConsensusState": {
-          "nextValidatorsHash": "",
-          "timestamp": "",
-          "root": {
-            "hash": ""
-          }
-        },
-        "consumerUnbondingPeriod": "1814400",
-        "consumerRevisionHeight": "1"
       }
     },
     "params": null,
