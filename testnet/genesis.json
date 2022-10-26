@@ -429,7 +429,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "50000000 000000"
+              "amount": "50000000000000"
             },
             {
               "denom": "uusl",
