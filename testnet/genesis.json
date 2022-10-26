@@ -74,6 +74,20 @@
           "sequence": "0"
         },
         {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal1h9kghpsrpsgjukava4qfnp73rh2mfqtf9muqkd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal1gjcf296j3hvm20mh3wjw7fxezfhnk88jd7rzrf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
