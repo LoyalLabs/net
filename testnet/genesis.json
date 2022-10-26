@@ -329,16 +329,7 @@
           ]
         }
       ],
-      "supply": [
-        {
-          "denom": "ulyl",
-          "amount": "200000000000000"
-        },
-        {
-          "denom": "uusl",
-          "amount": "10000000000000000"
-        }
-      ],
+      "supply": [],
       "denom_metadata": [
         {
           "description": "The native staking token of the Loyal network.",
