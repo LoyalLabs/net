@@ -127,7 +127,7 @@
             "delegated_vesting": [],
             "end_time": "1768453200"
           },
-          "start_time": "1673758800"
+          "start_time": "1666782914"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -148,7 +148,7 @@
             "delegated_vesting": [],
             "end_time": "1768453200"
           },
-          "start_time": "1673758800"
+          "start_time": "1666782914"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
