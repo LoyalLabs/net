@@ -60,6 +60,20 @@
           "sequence": "0"
         },
         {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal1kh3k96zemdm6l2g0u745u7cq32nw64xxm2s7g2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -180,7 +194,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "190700000000000"
+              "amount": "1000000000000000"
             },
             {
               "denom": "uusl",
@@ -193,7 +207,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "100000000000"
+              "amount": "1000000000"
             }
           ]
         },
@@ -202,7 +216,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "100000000000"
+              "amount": "1000000000"
             }
           ]
         },
@@ -211,7 +225,25 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "100000000000"
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "loyal1kh3k96zemdm6l2g0u745u7cq32nw64xxm2s7g2",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "1000000"
             }
           ]
         },
