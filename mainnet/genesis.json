@@ -68,13 +68,6 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "loyal1h9kghpsrpsgjukava4qfnp73rh2mfqtf9muqkd",
           "pub_key": null,
           "account_number": "0",
@@ -127,7 +120,7 @@
             "delegated_vesting": [],
             "end_time": "1768453200"
           },
-          "start_time": "1666782914"
+          "start_time": "1673758800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -148,7 +141,7 @@
             "delegated_vesting": [],
             "end_time": "1768453200"
           },
-          "start_time": "1666782914"
+          "start_time": "1673758800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -376,11 +369,11 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "1000000000"
+              "amount": "101000000000"
             },
             {
               "denom": "uusl",
-              "amount": "1000000000"
+              "amount": "10000000000"
             }
           ]
         },
@@ -421,20 +414,11 @@
           ]
         },
         {
-          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000"
-            }
-          ]
-        },
-        {
           "address": "loyal1xqd2qyrm2hglqprgnle7q67gf2ynchudc2zls6",
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "12500000000000"
+              "amount": "50000000000000"
             }
           ]
         },
@@ -443,11 +427,11 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "50000000000000"
+              "amount": "49995000000000"
             },
             {
               "denom": "uusl",
-              "amount": "1000000000000000000"
+              "amount": "999999990000000000"
             }
           ]
         },
@@ -456,7 +440,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "50000000000000"
+              "amount": "49900000000000"
             }
           ]
         },
@@ -465,7 +449,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "5000000000000"
+              "amount": "20000000000000"
             }
           ]
         },
@@ -474,7 +458,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "5000000000000"
+              "amount": "20000000000000"
             }
           ]
         },
@@ -483,7 +467,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -492,7 +476,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -501,7 +485,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -510,7 +494,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -519,7 +503,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -528,7 +512,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -537,7 +521,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -546,7 +530,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -555,7 +539,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         },
@@ -564,7 +548,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "250000000000"
+              "amount": "1000000000000"
             }
           ]
         }
