@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-10-19T06:03:40.296781696Z",
-  "chain_id": "loyal-testnet-002",
+  "chain_id": "loyal-testnet-003",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -380,7 +380,7 @@
             },
             {
               "denom": "uusl",
-              "amount": "10000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -447,7 +447,7 @@
             },
             {
               "denom": "uusl",
-              "amount": "999999990000000000"
+              "amount": "999999900000000000"
             }
           ]
         },
@@ -706,7 +706,7 @@
             },
             "tip": null
           },
-          "signatures": [ "ZiHntLWw7T9ubqSqg77Wc86uc5Ptb88QejeqrFmac45u1Esn8p3UGzYfL9P3Yy2KGJ7pcn98jA51koW9cOpdfg==" ]
+          "signatures": [ "mYE0sf0In3q800MCd1T/Bb9EH6fnxQjrh5RsnIrcjsp+8RlAupfVVe13bxew2P9nvhqVrV9+UvfkbjfAx2UYbQ==" ]
         },
         {
           "body": {
@@ -762,7 +762,7 @@
             },
             "tip": null
           },
-          "signatures": [ "YpjKZM0AbHLZCBTSHj0I30U0GQG79jeEtQkCJmYWKqZC2nKydFtPJ9IGUZ7q8bjtIRTYt/5MudKMxKKI9n+vFw==" ]
+          "signatures": [ "vsG5eJeFtPyIorBytOBfxWVGwUMTYJKHOlap+/xjiZY0QFIXxoIrOB6iRRw8EdGfkHkuHpQktz+cDTnPwsQkgw==" ]
         },
         {
           "body": {
@@ -818,7 +818,7 @@
             },
             "tip": null
           },
-          "signatures": [ "AAtY78XMFWQ+o1Z52OROOD04O7r7V+lWgddo2vdx/Mw8Mmyp2Iqe5rbF64XLs5tTNuQcYpU7UUOkaoeRXqf6Iw==" ]
+          "signatures": [ "mpLVN5NRVaktgo+X2mjZ7mtaUu3CVUJeMolguUeK6Q46mlDd/OOgOT+7BxZJ3FJE6LMQTEAbwIN0DVvEQ2jUIA==" ]
         },
         {
           "body": {
@@ -874,7 +874,7 @@
             },
             "tip": null
           },
-          "signatures": [ "afkKV0NPZotJyue5dZVB8Um0EdG/iCmR/zrW++MXhtEZyX8NtOkd52uLwku4izVN62FlUgMrlZwxNHzbglZZVw==" ]
+          "signatures": [ "C7apzXWVr3OlT/E3uZTK01N1sFVatqweKJt5EFrW64czlwaEW5OD5w2wfcEjha4QMaY9VbOYcUtPURadGILI+g==" ]
         }
       ]
     },
