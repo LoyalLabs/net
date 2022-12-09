@@ -1,2 +1,2 @@
-a5852ff5a394e498e5f555ee0fab2e96269c309b@loyal-seed.netdots.net:27656
-34e8067f85d2659cccc41e18a62f6d0e51c5c229@pubnode1.joinloyal.io:27656
+c969a2508e9f7876add50f521301681aee49097b@loyal-seed.netdots.net:27656
+a5311689d3ff2e34486e9b5e0b369099ad6162db@pubnode1.joinloyal.io:27656
