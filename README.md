@@ -6,8 +6,9 @@ In general, there will be three networks available at any given time:
 
 | Network            | Status             | Version     | Description                             |
 | ------------------ | ------------------ | ----------- | --------------------------------------- |
-| [mainnet](mainnet) | :heavy_check_mark: | v1.24.1     | Loyal Network mainnet network.          |
-| [testnet](testnet) | :construction:     | v1.24.1     | Testnet of the current mainnet version. |
+| [mainnet](mainnet) | :heavy_check_mark: | v0.25.1.3   | Loyal Network old mainnet network.          |
+| [loyal-2](mainnet) | :heavy_check_mark: | v0.25.1.3   | Loyal Network new mainnet network.          |
+| [testnet](testnet) | :construction:     | v0.25.1.3   | Testnet of the current mainnet version. |
 
 Each network has a corresponding directory (linked to above) containing network information.
 Each directory includes, at a minimum:
@@ -45,6 +46,9 @@ LOYAL_NET_BASE=https://raw.githubusercontent.com/LoyalLabs/net/master
 
 # mainnet
 LOYAL_NET="$LOYAL_NET_BASE/mainnet"
+
+# loyal-2
+LOYAL_NET="$LOYAL_NET_BASE/loyal-2"
 
 # testnet
 LOYAL_NET="$LOYAL_NET_BASE/testnet"
