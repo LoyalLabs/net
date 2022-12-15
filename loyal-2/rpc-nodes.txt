@@ -1,1 +1,1 @@
-https://main2-rpc.joinloyal.io/
+https://rpc-main.joinloyal.io/
