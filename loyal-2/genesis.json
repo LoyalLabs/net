@@ -161,8 +161,7 @@
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
           "address": "loyal1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8g52snc",
           "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
+          "account_number": "0"
         }
       ]
     },
