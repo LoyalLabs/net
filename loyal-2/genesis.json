@@ -156,6 +156,13 @@
             "end_time": "1702620000"
           },
           "start_time": "1673758800"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "address": "loyal1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8g52snc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -173,7 +180,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "21660047400000"
+              "amount": "0"
             },
             {
               "denom": "uusl",
@@ -283,6 +290,15 @@
               "amount": "10830024000000"
             }
           ]
+        },
+        {
+          "address": "loyal1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8g52snc",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "21660047400000"
+            }
+          ]
         }
       ],
       "supply": [],
@@ -352,7 +368,7 @@
         "community_pool": [
           {
             "denom": "ulyl",
-            "amount": "0"
+            "amount": "21660047400000"
           }
         ]
       },
