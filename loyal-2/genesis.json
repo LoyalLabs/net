@@ -262,7 +262,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "21650057400000"
+              "amount": "0"
             }
           ]
         },
@@ -349,7 +349,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "denom": "ulyl",
+            "amount": "21660047400000"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
