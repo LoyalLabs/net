@@ -173,7 +173,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "0"
+              "amount": "21660047400000"
             },
             {
               "denom": "uusl",
@@ -352,7 +352,7 @@
         "community_pool": [
           {
             "denom": "ulyl",
-            "amount": "21660047400000"
+            "amount": "0"
           }
         ]
       },
