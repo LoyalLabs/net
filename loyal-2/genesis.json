@@ -88,6 +88,13 @@
           "sequence": "0"
         },
         {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
@@ -166,11 +173,11 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "13359810400000"
+              "amount": "0"
             },
             {
               "denom": "uusl",
-              "amount": "10000000000"
+              "amount": "0"
             }
           ]
         },
@@ -247,6 +254,15 @@
             {
               "denom": "ulyl",
               "amount": "32490071000000"
+            }
+          ]
+        },
+        {
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "21650057400000"
             }
           ]
         },
