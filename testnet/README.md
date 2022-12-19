@@ -1,3 +1,2 @@
-## Testnet Information
+# Old Mainnet Information
 
-Official Testnet hosted by Loyal

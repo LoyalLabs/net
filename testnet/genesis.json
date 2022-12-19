@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-11-18T00:00:00.296781696Z",
-  "chain_id": "loyal-testnet-003",
+  "genesis_time": "2022-10-12T00:00:00.476313973Z",
+  "chain_id": "loyal-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,42 +33,35 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1j8eq7zl6vjk2jh0xshvtfrm87qqxqk5pssgq9q",
+          "address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1tjf7jue07tyzp5n0an2ywxwsdp76ah7f694f9t",
+          "address": "loyal1ujl0sugfqetku8u96yh0v0vp56kl2amg0ndxzu",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1cwgch529mltcx53ya2p8lxclxgzera04sw5tng",
+          "address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1dapughsf03v76f9sj0qd994k55xrxu89nldcqk",
+          "address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1kh3k96zemdm6l2g0u745u7cq32nw64xxm2s7g2",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
+          "address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -372,7 +365,7 @@
       },
       "balances": [
         {
-          "address": "loyal1tjf7jue07tyzp5n0an2ywxwsdp76ah7f694f9t",
+          "address": "loyal1ujl0sugfqetku8u96yh0v0vp56kl2amg0ndxzu",
           "coins": [
             {
               "denom": "ulyl",
@@ -380,12 +373,12 @@
             },
             {
               "denom": "uusl",
-              "amount": "100000000000"
+              "amount": "10000000000"
             }
           ]
         },
         {
-          "address": "loyal1dapughsf03v76f9sj0qd994k55xrxu89nldcqk",
+          "address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
           "coins": [
             {
               "denom": "ulyl",
@@ -394,7 +387,7 @@
           ]
         },
         {
-          "address": "loyal1j8eq7zl6vjk2jh0xshvtfrm87qqxqk5pssgq9q",
+          "address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
           "coins": [
             {
               "denom": "ulyl",
@@ -403,7 +396,7 @@
           ]
         },
         {
-          "address": "loyal1cwgch529mltcx53ya2p8lxclxgzera04sw5tng",
+          "address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
           "coins": [
             {
               "denom": "ulyl",
@@ -412,20 +405,11 @@
           ]
         },
         {
-          "address": "loyal1kh3k96zemdm6l2g0u745u7cq32nw64xxm2s7g2",
+          "address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
           "coins": [
             {
               "denom": "ulyl",
               "amount": "1000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1jnyr78kkdjm7mz0zgxn6ztswup4mcvf90esz6w",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000"
             }
           ]
         },
@@ -447,7 +431,7 @@
             },
             {
               "denom": "uusl",
-              "amount": "999999900000000000"
+              "amount": "999999990000000000"
             }
           ]
         },
@@ -658,7 +642,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "LoyalTest",
+                  "moniker": "Loyal",
                   "identity": "55142b0dbd243d39",
                   "website": "https://www.joinloyal.com",
                   "security_contact": "",
@@ -670,11 +654,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1j8eq7zl6vjk2jh0xshvtfrm87qqxqk5pssgq9q",
-                "validator_address": "loyalvaloper1j8eq7zl6vjk2jh0xshvtfrm87qqxqk5pceksn8",
+                "delegator_address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
+                "validator_address": "loyalvaloper17w2p24yhqw2lfy46grwyxmjmel8l9t2yfrnk5e",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "XOaIWx1z0LrRYwmoMAwueW9+2ITybLGoxEz6vtFjxoM="
+                  "key": "HJs3Znz/QvdsC+8PA+3ZeaGAtJq51TJC+waiBVmb6gk="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -682,7 +666,7 @@
                 }
               }
             ],
-            "memo": "181446de98b29b32dbf6b858f2fdca2d39203e3a@localhost:26656",
+            "memo": "5c4fcf4ec0de99c7bf9dadb74b5bf501e6bf8b55@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -692,7 +676,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AvUgCQ356ADBpAcTwOyLoTQ6bb3klGWZyZbM/7re2lwd"
+                  "key": "Apnnvd8zJ5HH/9ix4myrWuenAWum8QrtWaqZw1fNPjqP"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -706,7 +690,7 @@
             },
             "tip": null
           },
-          "signatures": [ "mYE0sf0In3q800MCd1T/Bb9EH6fnxQjrh5RsnIrcjsp+8RlAupfVVe13bxew2P9nvhqVrV9+UvfkbjfAx2UYbQ==" ]
+          "signatures": [ "dsRSn9p8K45TNKMKZzpAL8T8NbdAD+CalyqCkxfOd5JP5Pry5tu39FzXtrLORdCOdOnTOsRrrGMbrfXlJWbBQQ==" ]
         },
         {
           "body": {
@@ -714,7 +698,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "AvecomTest",
+                  "moniker": "Avecom",
                   "identity": "97270e70d46eeab8",
                   "website": "https://www.avecom.com",
                   "security_contact": "",
@@ -726,11 +710,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1cwgch529mltcx53ya2p8lxclxgzera04sw5tng",
-                "validator_address": "loyalvaloper1cwgch529mltcx53ya2p8lxclxgzera04c82m90",
+                "delegator_address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
+                "validator_address": "loyalvaloper1s0ev84rv2zs9xsy3u0fyef6ewg09yl5yuq4q3d",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "/wVcEqnedyDox8r7OnMi1cBzEPIkJsAY5OK6qvIyuAo="
+                  "key": "IO/GK9sIq2PA+RYIdPeQ9rqhhm1CSaY6QaiYs5IloD0="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -738,7 +722,7 @@
                 }
               }
             ],
-            "memo": "e865be3fa9a065d0f65bc3c2b9157c94dd218a69@localhost:26656",
+            "memo": "e28a799296eed6c24d4f99fc66b3e09d86c2f988@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -748,7 +732,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A/Gkk5Yl1pJcFfW6nCUSDNy3FYozlJ0QZ2ZIov6rEELi"
+                  "key": "Ak0LwcknrmTSCbhGaLvqrkSAaGLEcqmGCaIn4MuGt+rX"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -762,7 +746,7 @@
             },
             "tip": null
           },
-          "signatures": [ "vsG5eJeFtPyIorBytOBfxWVGwUMTYJKHOlap+/xjiZY0QFIXxoIrOB6iRRw8EdGfkHkuHpQktz+cDTnPwsQkgw==" ]
+          "signatures": [ "2Ub2XxOBtwb4JXEpwXb/p/DNc9EtZ3qaei2MMf5EG0V6tctJzjbKGtmUKp9xt5JfIQ+FhPM+hW1J86LiNvXaAg==" ]
         },
         {
           "body": {
@@ -770,7 +754,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "LoyalTest Launch 1",
+                  "moniker": "Loyal Launch 1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -782,11 +766,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1dapughsf03v76f9sj0qd994k55xrxu89nldcqk",
-                "validator_address": "loyalvaloper1dapughsf03v76f9sj0qd994k55xrxu89mkngk3",
+                "delegator_address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
+                "validator_address": "loyalvaloper1aq06576xx6u5d39y5vgheveuv9xvmqjggsxyw0",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "QZPXph/h+wGU2tWIW75wa1z0JGWUgRJFm3pCi1aKnpo="
+                  "key": "4IkWGvy3Pw1hrZjjGoOC58dkB3RUb3pEEy5Wv+gacMQ="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -794,7 +778,7 @@
                 }
               }
             ],
-            "memo": "60a30ea98acecc3693665b7e1c428639fd6620ce@localhost:26656",
+            "memo": "75fac407eb45166b678d2444bee55b87d4b8c8f1@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -804,7 +788,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A+pBKc5/ZhyfPBgV03XFNHAoZlHmVsPD1XiVOD8GNSKh"
+                  "key": "A8pKnP5bN1THtQbJaa23qX4W2bcwcW+GNI58tbo2wNSH"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -818,7 +802,7 @@
             },
             "tip": null
           },
-          "signatures": [ "mpLVN5NRVaktgo+X2mjZ7mtaUu3CVUJeMolguUeK6Q46mlDd/OOgOT+7BxZJ3FJE6LMQTEAbwIN0DVvEQ2jUIA==" ]
+          "signatures": [ "F9swISNaZMNf+SBbuweoq1QZ32rUISwMPhKXpNp+8VkJFX3UfZVsY2S3Y3O8uqgXZpNIEAXV/ZjmyaiHzZyPkQ==" ]
         },
         {
           "body": {
@@ -826,7 +810,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "LoyalTest Launch 2",
+                  "moniker": "Loyal Launch 2",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -838,11 +822,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1kh3k96zemdm6l2g0u745u7cq32nw64xxm2s7g2",
-                "validator_address": "loyalvaloper1kh3k96zemdm6l2g0u745u7cq32nw64xxnrww7d",
+                "delegator_address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
+                "validator_address": "loyalvaloper1x3sflucmtk4cf5vaq8674w0yc8lz4estsqe78a",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "PwkppO7zEtMDb1qMBI/LNyWhO+Zmm7FeTxC2016dShA="
+                  "key": "LXniTqA3gfOApamyD1tnp2Zgq7ejdex1z7/vrElee7Y="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -850,7 +834,7 @@
                 }
               }
             ],
-            "memo": "86f965b96233eab91cc4e39cfd60eacbb4b58dda@localhost:26656",
+            "memo": "b3a25bb1cc653dfb37205b9b6e590afd66e390ad@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -860,7 +844,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Au3HH6C6/vcdsA3Z191hAUgwKJ+Cyohf7Rwq71jegXmV"
+                  "key": "A8FU4trC3RC+khYPPBpsAfXFLZHDbfEexMQ6sYjvpCME"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -874,7 +858,7 @@
             },
             "tip": null
           },
-          "signatures": [ "C7apzXWVr3OlT/E3uZTK01N1sFVatqweKJt5EFrW64czlwaEW5OD5w2wfcEjha4QMaY9VbOYcUtPURadGILI+g==" ]
+          "signatures": [ "ivLeaQd1L8IH9AUGrzpdAD8hOKrSEev6ajQGA3Rv3Zx/UHuGT8ptfiW8fqss426we+ITUn92Bw78Z7iSYvSLIQ==" ]
         }
       ]
     },
@@ -893,7 +877,7 @@
         "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "3600s"
+        "voting_period": "1209600s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -973,9 +957,9 @@
       },
       "params": {
         "mint_denom": "ulyl",
-        "inflation_rate_change": "0.000000000000000000",
-        "inflation_max": "0.000000000000000000",
-        "inflation_min": "0.000000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }

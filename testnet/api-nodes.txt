@@ -1,1 +1,2 @@
-https://test-lcd.joinloyal.io/
+https://main-lcd.joinloyal.io/
+https://loyal-testnet-api.polkachu.com/
