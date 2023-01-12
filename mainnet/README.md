@@ -1,2 +1,3 @@
-# Old Mainnet Information
+## Mainnet Information
 
+Official Mainnet hosted by Loyal

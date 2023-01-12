@@ -1,2 +1,1 @@
-https://main-rpc.joinloyal.io/
-https://loyal-testnet-rpc.polkachu.com/
+https://rpc-main.joinloyal.io/

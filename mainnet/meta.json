@@ -3,47 +3,40 @@
   "status": "live",
   "network_type": "mainnet",
   "pretty_name": "Loyal",
-  "chain_id": "loyal-1",
+  "chain_id": "loyal-main-02",
   "bech32_prefix": "loyal",
   "daemon_name": "loyald",
-  "node_home": "$HOME/.loyal",
+  "node_home": "$HOME/.loyal-2",
   "genesis": {
     "genesis_url": "https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json"
   },
   "codebase": {
     "git_repo": "github.com/LoyalLabs/loyal",
-    "recommended_version": "v1.0.0",
+    "recommended_version": "v0.25.2",
     "compatible_versions": [
-      "v1.0.0"
+      "v0.25.2"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/LoyalLabs/loyal/releases/download/v1.0.0/loyal_v1.0.0_linux_amd64.tar.gz"
+      "linux/amd64": "https://github.com/LoyalLabs/loyal/releases/download/v0.25.2/loyal_v0.25.2_linux_amd64.tar.gz"
     }
   },
   "peers": {
     "seeds": [
       {
-        "id": "7490c272d1c9db40b7b9b61b0df3bb4365cb63a6",
-        "address": "loyal-seed.netdots.net:26656"
-      },
-      {
-        "id": "b66ecdf36bb19a9af0460b3ae0901aece93ae006",
-        "address": "pubnode1.joinloyal.io:26656"
+        "id": "c145da9f8b6c729287b42b1b3bcb6ca69e1a644e",
+        "address": "loyal-seed.netdots.net:27656"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://main-rpc.joinloyal.io/"
-      },
-      {
-        "address": "https://val-rpc.joinloyal.io/"
+        "address": "https://rpc-main.joinloyal.io/"
       }
     ],
     "rest": [
       {
-        "address": "https://main-lcd.joinloyal.io/"
+        "address": "https://lcd-main.joinloyal.io/"
       }
     ]
   }

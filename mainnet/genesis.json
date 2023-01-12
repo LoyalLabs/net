@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-10-12T00:00:00.476313973Z",
-  "chain_id": "loyal-1",
+  "genesis_time": "2022-12-15T00:00:00.476313973Z",
+  "chain_id": "loyal-main-02",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,35 +33,35 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
+          "address": "loyal165hpkl5633w58g4f0wchzrfmsu4hlawht5434v",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1ujl0sugfqetku8u96yh0v0vp56kl2amg0ndxzu",
+          "address": "loyal15vsy3f6frdpnpsn78s2h6sx2zz06xlyrt44pj0",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
+          "address": "loyal1peuj9yeaz6sl5cvv80rql8fnmkwfq2yk7yw9qv",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
+          "address": "loyal12a2lrnyryzu4jtlpqujewmm3g4rkmgtwk8847x",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
+          "address": "loyal16n5u8f3pmqf8hwseur66eau355gpe438lq7ccg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -75,7 +75,21 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "loyal1gjcf296j3hvm20mh3wjw7fxezfhnk88jd7rzrf",
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal1h5en6evmjelay2587f3vm6jk4falp98slza5f6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -84,7 +98,7 @@
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "loyal1xqd2qyrm2hglqprgnle7q67gf2ynchudc2zls6",
+              "address": "loyal1q964j6hk5l3pe6ae2c5vtz4xcuxm77hcw5yyz5",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -92,7 +106,7 @@
             "original_vesting": [
               {
                 "denom": "ulyl",
-                "amount": "37500000000000"
+                "amount": "20000000000000"
               }
             ],
             "delegated_free": [],
@@ -113,12 +127,12 @@
             "original_vesting": [
               {
                 "denom": "ulyl",
-                "amount": "15000000000000"
+                "amount": "10000000000000"
               }
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1768453200"
+            "end_time": "1702620000"
           },
           "start_time": "1673758800"
         },
@@ -134,224 +148,23 @@
             "original_vesting": [
               {
                 "denom": "ulyl",
-                "amount": "15000000000000"
+                "amount": "10000000000000"
               }
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1768453200"
+            "end_time": "1702620000"
           },
           "start_time": "1673758800"
         },
         {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1q5x5y2vg6xdr0d4zmyehase0h9x3ztpnsy0mk7",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1lzlwjr3cxc5pwkqtpreywtlfcanmwl9hzfyd66",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1vv6096qtepk2urgmdma02kgwr4khz5lk454vqh",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1p92k4l8mqzs299ns62qswfjky6765gmkzgt927",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1g9mj2rtkmymx244gyzqv2e622mth356g2revng",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1lhkxdreu45xcxgs6enx8k8pt7q3rjvv8grnfre",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal17kfhsqy6rqmjmjz2r5fh58pscy88wjtj9u9rdx",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1zvrhxgn0da82s8p3txgznhna488232my9m3v34",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1dumf2e7ua0kxjctdx9xda0acnlj9gfcqvxfh79",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
-        },
-        {
-          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
-          "base_vesting_account": {
-            "base_account": {
-              "address": "loyal1dl62mzg2w2lxlrk5texslsuudwml0l7gdlx74m",
-              "pub_key": null,
-              "account_number": "0",
-              "sequence": "0"
-            },
-            "original_vesting": [
-              {
-                "denom": "ulyl",
-                "amount": "750000000000"
-              }
-            ],
-            "delegated_free": [],
-            "delegated_vesting": [],
-            "end_time": "1768453200"
-          },
-          "start_time": "1673758800"
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "loyal1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8g52snc",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
         }
       ]
     },
@@ -365,20 +178,20 @@
       },
       "balances": [
         {
-          "address": "loyal1ujl0sugfqetku8u96yh0v0vp56kl2amg0ndxzu",
+          "address": "loyal165hpkl5633w58g4f0wchzrfmsu4hlawht5434v",
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "101000000000"
+              "amount": "0"
             },
             {
               "denom": "uusl",
-              "amount": "10000000000"
+              "amount": "0"
             }
           ]
         },
         {
-          "address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
+          "address": "loyal15vsy3f6frdpnpsn78s2h6sx2zz06xlyrt44pj0",
           "coins": [
             {
               "denom": "ulyl",
@@ -387,7 +200,7 @@
           ]
         },
         {
-          "address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
+          "address": "loyal1peuj9yeaz6sl5cvv80rql8fnmkwfq2yk7yw9qv",
           "coins": [
             {
               "denom": "ulyl",
@@ -396,7 +209,7 @@
           ]
         },
         {
-          "address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
+          "address": "loyal12a2lrnyryzu4jtlpqujewmm3g4rkmgtwk8847x",
           "coins": [
             {
               "denom": "ulyl",
@@ -405,7 +218,7 @@
           ]
         },
         {
-          "address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
+          "address": "loyal16n5u8f3pmqf8hwseur66eau355gpe438lq7ccg",
           "coins": [
             {
               "denom": "ulyl",
@@ -414,11 +227,11 @@
           ]
         },
         {
-          "address": "loyal1xqd2qyrm2hglqprgnle7q67gf2ynchudc2zls6",
+          "address": "loyal1q964j6hk5l3pe6ae2c5vtz4xcuxm77hcw5yyz5",
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "50000000000000"
+              "amount": "25992055600000"
             }
           ]
         },
@@ -427,7 +240,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "49995000000000"
+              "amount": "10000000000"
             },
             {
               "denom": "uusl",
@@ -436,11 +249,29 @@
           ]
         },
         {
-          "address": "loyal1gjcf296j3hvm20mh3wjw7fxezfhnk88jd7rzrf",
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "49900000000000"
+              "amount": "6484015000000"
+            }
+          ]
+        },
+        {
+          "address": "loyal1h5en6evmjelay2587f3vm6jk4falp98slza5f6",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "32490071000000"
+            }
+          ]
+        },
+        {
+          "address": "loyal17c09gwa5x8rhxkjenj3ygmpfrcqfykxce802f9",
+          "coins": [
+            {
+              "denom": "ulyl",
+              "amount": "0"
             }
           ]
         },
@@ -449,7 +280,7 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "20000000000000"
+              "amount": "10830024000000"
             }
           ]
         },
@@ -458,97 +289,16 @@
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "20000000000000"
+              "amount": "10830024000000"
             }
           ]
         },
         {
-          "address": "loyal1q5x5y2vg6xdr0d4zmyehase0h9x3ztpnsy0mk7",
+          "address": "loyal1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8g52snc",
           "coins": [
             {
               "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1lzlwjr3cxc5pwkqtpreywtlfcanmwl9hzfyd66",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1vv6096qtepk2urgmdma02kgwr4khz5lk454vqh",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1p92k4l8mqzs299ns62qswfjky6765gmkzgt927",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1g9mj2rtkmymx244gyzqv2e622mth356g2revng",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1lhkxdreu45xcxgs6enx8k8pt7q3rjvv8grnfre",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal17kfhsqy6rqmjmjz2r5fh58pscy88wjtj9u9rdx",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1zvrhxgn0da82s8p3txgznhna488232my9m3v34",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1dumf2e7ua0kxjctdx9xda0acnlj9gfcqvxfh79",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
-            }
-          ]
-        },
-        {
-          "address": "loyal1dl62mzg2w2lxlrk5texslsuudwml0l7gdlx74m",
-          "coins": [
-            {
-              "denom": "ulyl",
-              "amount": "1000000000000"
+              "amount": "21660047400000"
             }
           ]
         }
@@ -577,7 +327,7 @@
           "symbol": "LYL"
         },
         {
-          "description": "The USD token of the Loyal network.",
+          "description": "The reward token of the Loyal network.",
           "denom_units": [
             {
               "denom": "uusl",
@@ -617,7 +367,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "denom": "ulyl",
+            "amount": "21660047400000"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
@@ -654,11 +409,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal17w2p24yhqw2lfy46grwyxmjmel8l9t2yp2dxz7",
-                "validator_address": "loyalvaloper17w2p24yhqw2lfy46grwyxmjmel8l9t2yfrnk5e",
+                "delegator_address": "loyal15vsy3f6frdpnpsn78s2h6sx2zz06xlyrt44pj0",
+                "validator_address": "loyalvaloper15vsy3f6frdpnpsn78s2h6sx2zz06xlyrrut3yg",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "HJs3Znz/QvdsC+8PA+3ZeaGAtJq51TJC+waiBVmb6gk="
+                  "key": "PF7gif6Yxl8o3zFXmhC5oYoU0ktq3bbCiXSU/YKlA/0="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -666,7 +421,7 @@
                 }
               }
             ],
-            "memo": "5c4fcf4ec0de99c7bf9dadb74b5bf501e6bf8b55@localhost:26656",
+            "memo": "ce5576d754afd5ff0c9ccdbf458180e4fbeb31dc@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -676,7 +431,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Apnnvd8zJ5HH/9ix4myrWuenAWum8QrtWaqZw1fNPjqP"
+                  "key": "AskfKaV3fuEkfa4fnNe8Jk8SsV9S4yWjRwuCQiFPIPUJ"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -690,7 +445,7 @@
             },
             "tip": null
           },
-          "signatures": [ "dsRSn9p8K45TNKMKZzpAL8T8NbdAD+CalyqCkxfOd5JP5Pry5tu39FzXtrLORdCOdOnTOsRrrGMbrfXlJWbBQQ==" ]
+          "signatures": [ "xwASLqQPXYCrGRVCcBz0g3nQ/o7GSJdDwhnemoAqOiEmB5YdytcqFKa7sTvSL6taTiqUdcKgaeoog2f4IIPLoA==" ]
         },
         {
           "body": {
@@ -710,11 +465,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1s0ev84rv2zs9xsy3u0fyef6ewg09yl5y5fts82",
-                "validator_address": "loyalvaloper1s0ev84rv2zs9xsy3u0fyef6ewg09yl5yuq4q3d",
+                "delegator_address": "loyal1peuj9yeaz6sl5cvv80rql8fnmkwfq2yk7yw9qv",
+                "validator_address": "loyalvaloper1peuj9yeaz6sl5cvv80rql8fnmkwfq2ykkds4kt",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "IO/GK9sIq2PA+RYIdPeQ9rqhhm1CSaY6QaiYs5IloD0="
+                  "key": "/Y7A5ZmkTCoODCC/97BYBcl2O0lG1xpjW1r3XI8sHN4="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -722,7 +477,7 @@
                 }
               }
             ],
-            "memo": "e28a799296eed6c24d4f99fc66b3e09d86c2f988@localhost:26656",
+            "memo": "0c575cb5badaea5e3e1b8c08e4f44ec50db94706@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -732,7 +487,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Ak0LwcknrmTSCbhGaLvqrkSAaGLEcqmGCaIn4MuGt+rX"
+                  "key": "A8Aw5/oKVxPEOjh8ggC9euXx+Wyr4UJsro9HOKm2C0T8"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -746,7 +501,7 @@
             },
             "tip": null
           },
-          "signatures": [ "2Ub2XxOBtwb4JXEpwXb/p/DNc9EtZ3qaei2MMf5EG0V6tctJzjbKGtmUKp9xt5JfIQ+FhPM+hW1J86LiNvXaAg==" ]
+          "signatures": [ "E1QSEhReexNoo5R4RFltXwkeatGfp9kPu9lPErX+inZxZVQ5Q9OPVKxL64FuVCbWgqZLG5T5xzIoi/ONCAbzmA==" ]
         },
         {
           "body": {
@@ -766,11 +521,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1aq06576xx6u5d39y5vgheveuv9xvmqjgqec5cg",
-                "validator_address": "loyalvaloper1aq06576xx6u5d39y5vgheveuv9xvmqjggsxyw0",
+                "delegator_address": "loyal12a2lrnyryzu4jtlpqujewmm3g4rkmgtwk8847x",
+                "validator_address": "loyalvaloper12a2lrnyryzu4jtlpqujewmm3g4rkmgtw7we9gp",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "4IkWGvy3Pw1hrZjjGoOC58dkB3RUb3pEEy5Wv+gacMQ="
+                  "key": "J5akJ791wLDZMI4Ij8JRux01/RyEOlaKskkUhdysThE="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -778,7 +533,7 @@
                 }
               }
             ],
-            "memo": "75fac407eb45166b678d2444bee55b87d4b8c8f1@localhost:26656",
+            "memo": "700cc180c3a5279d10281af28d67e93d32226c1b@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -788,7 +543,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A8pKnP5bN1THtQbJaa23qX4W2bcwcW+GNI58tbo2wNSH"
+                  "key": "A9zwKIlljwkS93K0K1obSKewoA9uW8pq3BgK4CVR40o8"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -802,7 +557,7 @@
             },
             "tip": null
           },
-          "signatures": [ "F9swISNaZMNf+SBbuweoq1QZ32rUISwMPhKXpNp+8VkJFX3UfZVsY2S3Y3O8uqgXZpNIEAXV/ZjmyaiHzZyPkQ==" ]
+          "signatures": [ "jEAy45Qrc3QhzYNkHCNilJpf2DwwMcOxkxB13mkURQNPBl70nULy7uBlzdPfeEgQ8S1ALUCBd6/WUI6EV60gaQ==" ]
         },
         {
           "body": {
@@ -822,11 +577,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "loyal1x3sflucmtk4cf5vaq8674w0yc8lz4estcf8w36",
-                "validator_address": "loyalvaloper1x3sflucmtk4cf5vaq8674w0yc8lz4estsqe78a",
+                "delegator_address": "loyal16n5u8f3pmqf8hwseur66eau355gpe438lq7ccg",
+                "validator_address": "loyalvaloper16n5u8f3pmqf8hwseur66eau355gpe438hfqgw0",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "LXniTqA3gfOApamyD1tnp2Zgq7ejdex1z7/vrElee7Y="
+                  "key": "sP51KgbF0ROFwJyYruvvuGOxU5q5i+2ZuYIxFYAN45U="
                 },
                 "value": {
                   "denom": "ulyl",
@@ -834,7 +589,7 @@
                 }
               }
             ],
-            "memo": "b3a25bb1cc653dfb37205b9b6e590afd66e390ad@localhost:26656",
+            "memo": "a951c97c7dd522f41d3d0e49032bbc11ea5037b1@localhost:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -844,7 +599,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A8FU4trC3RC+khYPPBpsAfXFLZHDbfEexMQ6sYjvpCME"
+                  "key": "A44syt5yAoxxvuU4h20oQwOXyxD4miVnuuMBhHH1zsZS"
                 },
                 "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
@@ -858,7 +613,7 @@
             },
             "tip": null
           },
-          "signatures": [ "ivLeaQd1L8IH9AUGrzpdAD8hOKrSEev6ajQGA3Rv3Zx/UHuGT8ptfiW8fqss426we+ITUn92Bw78Z7iSYvSLIQ==" ]
+          "signatures": [ "A8j30oFF2nu4pkQPt/30nxmfmn3ArJW0rGuw47Aym7NMDQgii3amtN/j4Ft8wNuN4b55Fb3Q2WOmv53VJSot1Q==" ]
         }
       ]
     },
@@ -871,13 +626,13 @@
         "min_deposit": [
           {
             "denom": "ulyl",
-            "amount": "100000000"
+            "amount": "1000000000"
           }
         ],
         "max_deposit_period": "604800s"
       },
       "voting_params": {
-        "voting_period": "1209600s"
+        "voting_period": "432000s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -952,14 +707,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.000000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "ulyl",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
@@ -979,7 +734,7 @@
     "staking": {
       "params": {
         "unbonding_time": "1814400s",
-        "max_validators": 50,
+        "max_validators": 21,
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "ulyl",

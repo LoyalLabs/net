@@ -1,23 +1,23 @@
 {
-  "chain_name": "loyal",
-  "status": "live",
-  "network_type": "mainnet",
-  "pretty_name": "Loyal",
+  "chain_name": "loyaltest",
+  "status": "test",
+  "network_type": "testnet",
+  "pretty_name": "LoyalTest",
   "chain_id": "loyal-1",
   "bech32_prefix": "loyal",
   "daemon_name": "loyald",
   "node_home": "$HOME/.loyal",
   "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json"
+    "genesis_url": "https://raw.githubusercontent.com/LoyalLabs/net/main/testnet/genesis.json"
   },
   "codebase": {
     "git_repo": "github.com/LoyalLabs/loyal",
-    "recommended_version": "v1.0.0",
+    "recommended_version": "v0.25.1.2",
     "compatible_versions": [
-      "v1.0.0"
+      "v0.25.1.2"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/LoyalLabs/loyal/releases/download/v1.0.0/loyal_v1.0.0_linux_amd64.tar.gz"
+      "linux/amd64": "https://github.com/LoyalLabs/loyal/releases/download/v0.25.1.2/loyal_v0.25.1.2_linux_amd64.tar.gz"
     }
   },
   "peers": {
@@ -36,9 +36,6 @@
     "rpc": [
       {
         "address": "https://main-rpc.joinloyal.io/"
-      },
-      {
-        "address": "https://val-rpc.joinloyal.io/"
       }
     ],
     "rest": [
