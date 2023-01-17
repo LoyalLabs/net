@@ -1,1 +1,2 @@
 https://lcd-main.joinloyal.io/
+https://api-loyal.d-stake.xyz/
