@@ -1,1 +1,2 @@
 https://rpc-main.joinloyal.io/
+https://rpc-loyal.d-stake.xyz/
